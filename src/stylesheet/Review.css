@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.box-container{
+    padding: 30px;
+    text-align: center;
+    width: 700px;
+   /*  border: 2px solid  blueviolet; */
+    margin: auto;
+    margin-top: 80px;
+    box-shadow:  5px 5px 30px #b0b0b0;
+}
+
+.box-container >p{
+    line-height: 30px;
+    margin-bottom: 50px;
+    color: #969696;
+}
+.img-rounded{
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 20px;
+}
