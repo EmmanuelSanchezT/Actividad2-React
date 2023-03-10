@@ -1,0 +1,111 @@
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+}
+
+.Card{
+    background-color: hsl(216, 50%, 16%);
+    width: 26.5rem;
+    height: 41rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.body{
+ padding: 2rem;
+ font-family: 'Outfit';
+}
+
+.img{
+    width: 23rem;
+    height: 23rem;
+    border-radius: 1rem;
+}
+
+.titulo{
+    color: white;
+    font-size: 17pt;
+}
+
+.subtitulo{
+    color: hsl(215, 51%, 70%);
+    font-size: 14pt;
+    font-weight: 200;
+}
+
+.textos{
+   display: flex;
+   justify-content: space-around; 
+   font-family: 'Outfit';
+}
+
+.textos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.uno{
+    display: flex;
+    align-items: center;
+}
+.unop{
+    color: hsl(178, 100%, 50%);
+   font-weight: 600;
+}
+
+.imguno{
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+.dos{
+    display: flex;
+    align-items: center;
+}
+
+.imgdos{
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+
+}
+
+.dosp{
+    color: hsl(215, 51%, 70%);
+}
+
+.linea{
+    height: 0.1rem;
+    width: 23rem;
+    border-bottom: 1px solid hsl(215, 32%, 27%)
+}
+
+.avatar{
+ display: flex;
+/*  justify-content: center; */
+ align-items: center;
+ justify-content: start;
+}
+
+.imgavatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 5rem;
+    border: 1px solid white;
+    margin-right: 0.5rem;
+}
+
+.Nombre{
+    margin-left: 6px;
+    color: white;
+}
+
+.box-container1{
+    padding: 30px;
+    margin-top: 80px;
+}
